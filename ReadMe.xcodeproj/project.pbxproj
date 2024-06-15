@@ -14,6 +14,7 @@
 		65875F8C2C1DD6AF000D56C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65875F8B2C1DD6AF000D56C4 /* Assets.xcassets */; };
 		65875F8F2C1DD6AF000D56C4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 65875F8E2C1DD6AF000D56C4 /* Base */; };
 		65875F972C1DD8BE000D56C4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65875F962C1DD8BE000D56C4 /* Book.swift */; };
+		65875F992C1DE4BF000D56C4 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65875F982C1DE4BF000D56C4 /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		65875F8E2C1DD6AF000D56C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65875F902C1DD6AF000D56C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65875F962C1DD8BE000D56C4 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		65875F982C1DE4BF000D56C4 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				65875F822C1DD6AE000D56C4 /* AppDelegate.swift */,
 				65875F842C1DD6AE000D56C4 /* SceneDelegate.swift */,
 				65875F862C1DD6AE000D56C4 /* LibraryViewController.swift */,
+				65875F982C1DE4BF000D56C4 /* Library.swift */,
 				65875F882C1DD6AE000D56C4 /* Main.storyboard */,
 				65875F962C1DD8BE000D56C4 /* Book.swift */,
 				65875F8B2C1DD6AF000D56C4 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				65875F972C1DD8BE000D56C4 /* Book.swift in Sources */,
 				65875F872C1DD6AE000D56C4 /* LibraryViewController.swift in Sources */,
+				65875F992C1DE4BF000D56C4 /* Library.swift in Sources */,
 				65875F832C1DD6AE000D56C4 /* AppDelegate.swift in Sources */,
 				65875F852C1DD6AE000D56C4 /* SceneDelegate.swift in Sources */,
 			);

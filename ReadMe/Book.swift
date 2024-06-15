@@ -10,5 +10,7 @@ import UIKit
 struct Book {
     let title: String
     let authot: String
-    let image: UIImage
+    var image: UIImage {
+        LibrarySymbol.letterSquare(letter: title.first).image
+    }
 }
