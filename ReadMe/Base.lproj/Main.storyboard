@@ -40,6 +40,9 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="piC-QZ-yS7" kind="show" destinationCreationSelector="showDetailView:" id="Ldr-nO-O82"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -56,13 +59,13 @@
         <!--Detail View Controller-->
         <scene sceneID="xfy-du-SFk">
             <objects>
-                <viewController id="piC-QZ-yS7" userLabel="Detail View Controller" sceneMemberID="viewController">
+                <viewController id="piC-QZ-yS7" userLabel="Detail View Controller" customClass="DetailViewController" customModule="ReadMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FHf-HU-eZL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="51m-OC-NHP">
-                                <rect key="frame" x="98.333333333333329" y="300.33333333333337" width="196.33333333333337" height="276.33333333333337"/>
+                                <rect key="frame" x="98.333333333333329" y="322.33333333333337" width="196.33333333333337" height="276.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpY-A4-Hps">
                                         <rect key="frame" x="0.0" y="0.0" width="196.33333333333334" height="33.666666666666664"/>
@@ -93,6 +96,12 @@
                             <constraint firstItem="51m-OC-NHP" firstAttribute="centerY" secondItem="OvR-Gu-GK0" secondAttribute="centerY" id="NCA-Zc-Rmu"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="cXf-4f-ucI"/>
+                    <connections>
+                        <outlet property="authorLabel" destination="MNZ-Ee-U7w" id="Qp7-FH-IJd"/>
+                        <outlet property="imageView" destination="1wo-6I-gAj" id="eYT-8b-Jys"/>
+                        <outlet property="titleLabel" destination="mpY-A4-Hps" id="7mG-z8-3y0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ExJ-mi-DcV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
